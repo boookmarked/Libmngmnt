@@ -4,7 +4,7 @@ import mysql.connector as ms
 from datetime import datetime
 
 # Connect to the MySQL database
-con = ms.connect(host="localhost",user="root",password="root",database="library")
+con = ms.connect(host="localhost",user="your_username",password="your_password",database="library")
 cur = con.cursor()
 
 # Function to display the return policy information
